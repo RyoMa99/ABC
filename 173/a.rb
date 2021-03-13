@@ -1,0 +1,1 @@
+puts (1000 - gets.chomp.to_i) % 1000

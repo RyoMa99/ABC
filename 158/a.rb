@@ -1,0 +1,1 @@
+puts gets.chomp.split("").uniq.length == 1 ?  "No" : "Yes" 

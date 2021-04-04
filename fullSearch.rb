@@ -4,7 +4,7 @@ N = 20
 Benchmark.bm 30 do |r|
   r.report "bit full search" do
     lists = []
-    # 全探索は何も選択しないを含めてN**2個存在する
+    # 全探索は何も選択しないを含めて1 << N個存在する
     (1 << N).times do |bit|
       list = []
       N.times do |i|

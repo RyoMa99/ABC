@@ -1,0 +1,1 @@
+puts gets.chomp.split("").reject { |el| %w{a i u e o}.include?(el) }.join

@@ -1,0 +1,1 @@
+puts gets.split.map(&:to_i).inject{|result,item| result - item}.abs + 1

@@ -1,0 +1,1 @@
+puts gets.chomp.eql?("a") ? -1 : "a"

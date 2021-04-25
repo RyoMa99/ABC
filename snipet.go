@@ -27,3 +27,11 @@ func min(a, b int) int {
 	}
 	return a
 }
+
+func sum(slice []int) int {
+	var sum int
+	for _, x := range slice {
+		sum += x
+	}
+	return sum
+}

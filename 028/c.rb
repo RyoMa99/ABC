@@ -1,0 +1,1 @@
+puts gets.split.map(&:to_i).combination(3).to_a.map(&:sum).sort.uniq.reverse[2]

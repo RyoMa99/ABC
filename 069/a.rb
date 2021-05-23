@@ -1,0 +1,1 @@
+puts gets.chomp.split.map(&:to_i).map{|num| num-=1}.inject(:*)

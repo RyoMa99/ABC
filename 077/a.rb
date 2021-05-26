@@ -1,0 +1,1 @@
+puts gets.chomp.eql?(gets.chomp.reverse) ? "YES" : "NO"

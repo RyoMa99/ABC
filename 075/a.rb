@@ -1,0 +1,1 @@
+puts gets.split.group_by(&:itself).transform_values(&:count).key(1)

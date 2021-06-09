@@ -1,0 +1,1 @@
+puts gets.chomp.split.map(&:to_i).inject(1){|sum,item| sum * (item-1)}

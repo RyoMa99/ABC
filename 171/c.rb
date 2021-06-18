@@ -1,13 +1,15 @@
-# ちょっと違う
-n = gets.to_i
-
+n = gets.to_i - 1
 alpha = [*"a".."z"]
 
-ans = ""
+ans = []
 
-until (n <= 26)
-  digit = n / 26)
+ans.unshift alpha[n%26]
+n /= 26
+
+while n != 0
+  n -= 1
+  ans.unshift alpha[(n%26)]
+  n /= 26
 end
 
-ans << alpha[n-1]
-puts ans
+puts ans.join

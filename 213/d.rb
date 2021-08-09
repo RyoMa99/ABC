@@ -9,7 +9,7 @@ $ans = []
   $towns[b] << a
 end
 
-n.times do |i|
+(n+1).times do |i|
   $towns[i].sort!
 end
 
@@ -26,4 +26,4 @@ end
 $visited[1] = true
 dfs(1)
 
-puts $ans.join(" ")
+puts $ans.join(" ").chomp

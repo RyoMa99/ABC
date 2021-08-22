@@ -1,0 +1,1 @@
+puts gets.chomp.eql?("Hello,World!") ? "AC" : "WA"
